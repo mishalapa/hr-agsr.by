@@ -10,7 +10,7 @@ const CalenderWrapper = styled.div`
 	align-items: center;
 `
 
-export default function OneCard(news: any) {
+export default function OneCard(news) {
 	return (
 		<Card sx={{ maxWidth: 370, mb: '10px' }}>
 			<CardMedia component='img' image={news.news.photo} alt='work' />
